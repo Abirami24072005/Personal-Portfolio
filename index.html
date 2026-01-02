@@ -1,0 +1,237 @@
+<!DOCTYPE html> <!-- Defines HTML5 document -->
+<html lang="en"> <!-- Root element with English language -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive layout -->
+
+    <!-- Google Fonts connection -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Poppins font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      referrerpolicy="no-referrer"/>
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Page title -->
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- ================= NAVBAR ================= -->
+    <nav>
+        <!-- Left side: Name -->
+        <div class="left">
+            <a href="/">John Doe</a> <!-- Homepage link -->
+        </div>
+
+        <!-- Right side: Social links -->
+        <div class="right">
+            <!-- GitHub link -->
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i> <!-- GitHub icon -->
+                <span>Github</span>
+            </a>
+
+            <!-- LinkedIn link -->
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i> <!-- LinkedIn icon -->
+                <span>LinkedIn</span>
+            </a>
+
+            <!-- Email link -->
+            <a href="mailto:john@example.com">
+                <i class="fa-solid fa-envelope"></i> <!-- Email icon -->
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- ================= HERO SECTION ================= -->
+        <section class="hero-section">
+            <!-- Text content -->
+            <div class="text">
+                <h2>Hi, I'm John ✋</h2> <!-- Greeting -->
+
+                <!-- About paragraph -->
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae aspernatur fugiat aut impedit animi esse labore harum! Fuga quam excepturi repellendus eum veniam dolorem et commodi sint vero suscipit sed quaerat distinctio placeat laborum, possimus ullam! Esse veniam saepe ipsum illo architecto possimus, commodi fugiat impedit? Enim, nisi facere nulla laboriosam omnis eaque sed natus eligendi mollitia aliquid dicta repudiandae. Exercitationem aliquam accusamus dignissimos quod cumque obcaecati, sit vel dolor ratione dolorem blanditiis hic minima!
+                </p>
+
+                <!-- Navigation buttons -->
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#projects">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <span>Projects</span>
+                    </a>
+
+                    <a href="#testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Profile image -->
+            <div class="headshot">
+                <img src="john doe.webp" alt="john doe headshot">
+            </div>
+        </section>
+
+        <!-- ================= SKILLS SECTION ================= -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2> <!-- Section heading -->
+
+            <!-- Skills description -->
+            <div class="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, quo quasi! Dolore sunt excepturi beatae, cupiditate voluptatum autem eos consequuntur quos dolores ipsa aspernatur ullam eligendi eaque sit ut aperiam ab. Error quam natus fugiat assumenda velit reiciendis rerum ullam laborum eum ab repellendus, aliquam labore iure amet delectus magni.
+            </div>
+
+            <!-- Skill items container -->
+            <div class="cells">
+                <!-- Individual skill -->
+                <div class="cell">
+                    <img src="html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="css-logo.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="javascript-logo.webp" alt="javascript logo">
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="cell">
+                    <img src="node-logo.webp" alt="nodejs logo">
+                    <span>Node.js</span>
+                </div>
+
+                <div class="cell">
+                    <img src="react-logo.webp" alt="react logo">
+                    <span>React</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROJECTS SECTION ================= -->
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2> <!-- Projects heading -->
+
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3>Interactive Quiz Application</h3>
+
+                    <!-- Project description -->
+                    <p>
+                        An interactive web-based quiz application featuring
+                        multiple-choice questions, real-time score tracking,
+                        and instant feedback.
+                    </p>
+
+                    <!-- Technologies used -->
+                    <p class="tech-stack">
+                        HTML • CSS • JavaScript
+                    </p>
+
+                    <!-- GitHub link -->
+                    <div class="project-links">
+                        <a href="https://github.com/Abirami24072005/Interactive-Quiz" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <h3>Real-Time Chat Application</h3>
+
+                    <p>
+                        A real-time chat application using WebSocket technology.
+                    </p>
+
+                    <p class="tech-stack">
+                        JavaScript • Node.js • Socket.io
+                    </p>
+
+                    <div class="project-links">
+                        <a href="https://github.com/Abirami24072005/Real-time-chat-application" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TESTIMONY SECTION ================= -->
+        <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+
+            <div class="group">
+                <!-- Person details -->
+                <div class="person-details">
+                    <img src="testimony-headshot.webp">
+                    <p>John Doe</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+
+                <!-- Testimonial text -->
+                <div class="text">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ducimus ipsam nihil perferendis quo dolores aut cum quasi tenetur aperiam sequi voluptatem quae ut voluptate laudantium nisi repellendus, vero nesciunt repellat rem. Architecto, aliquid expedita consectetur aliquam soluta corporis commodi. Alias, obcaecati. Necessitatibus dolorem possimus ab impedit dolore, cum natus."
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CONTACT SECTION ================= -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <!-- Contact description -->
+                <div class="text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio repellat fuga quidem nulla animi possimus officiis soluta vel dolore ipsam eveniet sapiente exercitationem molestiae iusto corporis iste doloremque laboriosam atque, ut et maiores consequuntur? Officiis sapiente, voluptatum, ad vel amet in quo quod accusamus perferendis voluptatem sint, quae optio! Autem.
+                </div>
+
+                <!-- Contact form -->
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
