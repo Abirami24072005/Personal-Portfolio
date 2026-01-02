@@ -78,3 +78,5 @@ This Personal Portfolio Website effectively demonstrates my web development skil
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/dd02f15f-d6dc-4a8e-bf92-81755d37d6e0" />
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6f461dd9-b241-4b30-b3af-1d533e8af510" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3c1976be-bee7-4259-b178-2ea152b6af23" />
