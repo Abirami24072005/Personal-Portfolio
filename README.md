@@ -13,7 +13,7 @@
 *MENTOR: NEELA SANTOSH
 
 #Personal Portfolio Website – Project Description
-Overview
+
 
 The Personal Portfolio Website is a responsive web platform developed to present my professional profile, technical skills, and completed projects in a clear and organized manner. The main objective of this project is to create a personal branding website that highlights my abilities as a web developer and provides easy access to my work and contact information. The portfolio is designed to be simple, user-friendly, and visually appealing while following modern web design standards.
 
