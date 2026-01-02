@@ -66,3 +66,15 @@ The entire portfolio is fully responsive and adapts seamlessly to desktops, tabl
 #Conclusion
 
 This Personal Portfolio Website effectively demonstrates my web development skills, project experience, and ability to design responsive user interfaces. It serves as a professional digital identity and a practical showcase of my technical knowledge.
+
+#OUTPUT IMAGE:
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/22922b5c-1184-4011-8cc9-7a17cd00d9cd" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/101f964b-6438-481a-aba1-be45316bfeb6" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/31a4bd47-daec-43bb-88e4-6235710b31a1" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/dd02f15f-d6dc-4a8e-bf92-81755d37d6e0" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6f461dd9-b241-4b30-b3af-1d533e8af510" />
